@@ -17,13 +17,13 @@ WebBrowser.maybeCompleteAuthSession();
 
 // Your Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAyJ0kjzbvVhGYUQC_u4Ab8tpd-WEwBp_k",
-  authDomain: "aidailyplanner.firebaseapp.com",
-  projectId: "aidailyplanner",
-  storageBucket: "aidailyplanner.firebasestorage.app",
-  messagingSenderId: "1070967105278",
-  appId: "1:1070967105278:web:518eac25ea0ce02d6e27af",
-  measurementId: "G-HZ8WYMD8CW"
+  apiKey: "AIzaSyAdqfYp24TqXyoTR81VIkBOB1RgftasuJw",
+  authDomain: "maps-8803a.firebaseapp.com",
+  projectId: "maps-8803a",
+  storageBucket: "maps-8803a.firebasestorage.app",
+  messagingSenderId: "369802763154",
+  appId: "1:369802763154:web:34a6f5b7ce4e90ba533f4b",
+  measurementId: "G-Q7Z8WTSTWD"
 };
 
 // Initialize Firebase
@@ -48,8 +48,8 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   // Set up Google OAuth request
   const [request, response, promptAsync] = Google.useAuthRequest({
     androidClientId: 'YOUR_ANDROID_CLIENT_ID', // Get this from Google Cloud Console
-    iosClientId: 'YOUR_IOS_CLIENT_ID', // Get this from Google Cloud Console
-    clientId: 'YOUR_WEB_CLIENT_ID', // Get this from Google Cloud Console
+    iosClientId: '369802763154-q3cv0ksg7t945hj5e91t7chp8mhqk5ta.apps.googleusercontent.com', // Get this from Google Cloud Console
+    clientId: '369802763154-3jd0ujnc6p8ka6vfc8sc65mskrq8ml03.apps.googleusercontent.com', // Get this from Google Cloud Console
   });
 
   useEffect(() => {

@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "369802763154",
+    "project_id": "maps-8803a",
+    "storage_bucket": "maps-8803a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369802763154:android:ddd2e8a3ec214b24533f4b",
+        "android_client_info": {
+          "package_name": "com.trymaps.maps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "369802763154-3jd0ujnc6p8ka6vfc8sc65mskrq8ml03.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDftuOxd26L7-qREzaOs6s3E8tbbD4o6k8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "369802763154-3jd0ujnc6p8ka6vfc8sc65mskrq8ml03.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "369802763154-q3cv0ksg7t945hj5e91t7chp8mhqk5ta.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.trymaps.maps"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
